@@ -16,6 +16,8 @@
   <a mat-button [routerLink]="['/signin']" routerLinkActive="active">Sign In</a>
 </mat-toolbar>
 
-<mat-card>
-  <router-outlet></router-outlet>
-</mat-card>
+<div fxLayoutAlign="center center">
+  <mat-card class="container">
+    <router-outlet></router-outlet>
+  </mat-card>
+</div>
