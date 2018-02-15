@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './+home/home.component';
 import { SigninComponent } from './+signin/signin.component';
+import { MoenchComponent } from './+moench/moench.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -35,7 +36,6 @@ import {
   MatToolbarModule,
   MatTooltipModule
 } from '@angular/material';
-
 
 export const MaterialModules = [
   MatAutocompleteModule,
@@ -67,7 +67,8 @@ export const MaterialModules = [
   declarations: [
     AppComponent,
     HomeComponent,
-    SigninComponent
+    SigninComponent,
+    MoenchComponent
   ],
   imports: [
     BrowserModule,
